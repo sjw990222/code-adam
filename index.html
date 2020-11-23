@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>:: CODE ADAM ::</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400&display=swap" rel="stylesheet">
+	<style type="text/css">
+		html {background-color:black;
+			scroll-behavior: smooth;}
+		body, ul, li, h1, h2, h3, h4, h5{margin: 0;
+			padding: 0; }
+		header {font-family: 'Russo One', sans-serif;
+			font-size: 7em;
+			text-align: center;
+			margin-top: 240px;
+			animation: logo 3s infinite alternate-reverse;
+			height: 500px;
+			position: relative;}
+		section {font-family: 'Noto Sans KR', sans-serif;
+			position: relative;
+			height: 800px;}
+		h1 {font-size: 2em;
+			color: white;
+			font-weight: 400;
+			padding-top: 250px;
+			padding-bottom: 50px;
+			text-align: center;
+			letter-spacing: -1px;}
+		h2 {font-size: 1.5em;
+			color: white;
+			font-weight: 100;
+			padding-top: 10px;
+			text-align: center;
+			word-break: keep-all;
+			letter-spacing: -1px;
+			line-height: 165%;}
+		h3 {font-size: 1em;
+			color: white;
+			font-weight: 100;
+			padding-top: 10px;
+			text-align: center;
+			word-break: keep-all;
+			letter-spacing: -1px;
+			line-height: 165%;}
+		a:link{color: rgb(255,255,255);
+			text-decoration: none;}
+		a:visited{color: rgb(255,255,255);
+			text-decoration: none;}
+		a:hover{color: rgb(0,0,220);
+			text-decoration: underline;}
+
+		nav{width: 200px;
+			height: 100%;
+			position: sticky;
+			bottom:0;
+			border-bottom-style: solid;
+			border-bottom-width: 2px;
+			border-bottom-color: #008432;
+			background: rgb(0,0,220);}
+		nav ul{width:100%;
+			height: 100px;
+			float: right;}
+
+
+		@keyframes logo { from {color:rgb(255,255,255);} to{ color:rgb(0,0,220);} }
+		@keyframes back { from {border-color:rgb(255,255,255);} to{border-color:rgb(0,0,220);} }
+		@keyframes son {from {opacity: 60%;} to {opacity: 0%; right:0px;}}
+		@keyframes adam {from {opacity: 100%;} to {opacity: 0%; bottom:0px;}}
+		@keyframes code {from {opacity: 100%;} to {opacity: 0%;}}
+		@keyframes graph {from {opacity: 100%;} to {opacity: 0%; top:0px;}}
+
+		.adam {position: absolute;
+			width: 250px;
+			right: 200px;
+			bottom: 450px;
+			animation: adam 5s infinite;}
+		.code {position: absolute;
+			width: 350px;
+			right: 560px;
+			bottom: 200px;
+			animation: code 0.7s infinite alternate-reverse;}
+		.father {position: absolute;
+			width: 200px;
+			left: 50px;
+			bottom: 60px;
+			opacity: 60%}
+		.son {position: absolute;
+			width: 170px;
+			right: 1130px;
+			bottom: 20px;
+			animation: son 4s infinite;}
+		.graph {position: absolute;
+			line-height: 600%;
+			left: 200px;
+			top: 500px;
+			width: 100px; 
+			height: 300px;
+			background-color: rgb(0,0,220);
+			animation: graph 2s infinite;}
+		.graph2 {position: absolute;
+			line-height: 600%;
+			right: 200px;
+			top: 500px;
+			width: 100px; 
+			height: 300px;
+			background-color: rgb(0,0,220);
+			animation: graph 2s infinite;}
+		.about {position: absolute;
+			font-size: 0.15em;
+			line-height: 600%;
+			left: 200px;
+			top: -100px;
+			width: 100px; 
+			height: 100px;
+			border-radius: 50%;
+			border-style: solid;
+			border-width: 2px;
+			animation: back 2s infinite alternate-reverse;}
+		.style {position: absolute;
+			font-size: 0.15em;
+			line-height: 600%;
+			right: 250px;
+			top: -200px;
+			width: 100px; 
+			height: 100px;
+			border-radius: 50%;
+			border-style: solid;
+			border-width: 2px;
+			animation: back 2s infinite alternate-reverse;}
+		.contents {position: absolute;
+			font-size: 0.15em;
+			line-height: 600%;
+			right: 500px;
+			top: 300px;
+			width: 100px; 
+			height: 100px;
+			border-radius: 50%;
+			border-style: solid;
+			border-width: 2px;
+			animation: back 2s infinite alternate-reverse;}
+
+		.market {background-image: url(marketback.png);
+			background-size: 100%;}
+		.bulletin {background-image: url(bulletin.png);
+			background-size: 100%;}
+
+		.row{width: 800px;
+			margin: auto;}
+		.row img{width: 100%;}
+		.flex {display: flex;
+			height: 500px;}
+		.col-2 {width: 50%;
+			margin:10px;}
+		.flex div {overflow: hidden;}
+
+	</style>
+</head>
+<body>
+	<header>
+		Code★Adam
+		<div class="about">
+			<a href="#a">
+				about
+			</a>
+		</div>
+		<div class="contents">
+			<a href="#b">
+				contents
+			</a>
+		</div>
+		<div class="style">
+			<a href="#c">
+				style
+			</a>
+		</div>
+	</header>
+
+
+	<section id="a">
+		<img src="adamwalshduotone.png" class="adam">
+		<div class="row">
+		<h2>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			1981년, 
+			<br>
+			유명 방송인 존 월시의 아들 아담 월시가 미국 플로리다 시어스 백화점에서 실종되고 그로부터 약 2주 뒤 살해된 채로 발견되었다.
+		</h2>
+	</div>
+	</section>
+	<section>
+		<img src="Code_Adam.png" class="code">
+		<div class="row">
+		<h2>
+			<br>
+			<br>
+			이 사건을 계기로 미국에서는 실종아동 보호와 아동범죄 예방을 위한 캠페인이 대대적으로 진행되었으며, 큰 규모의 다중 이용 시설에서 실종 아동이 발생할 경우 신속히 찾을 수 있도록 조치를 취하는 코드 아담이 만들어졌다.
+		</h2>
+		</div>
+	</section>
+	<section class="market">
+		<h1 class="row">
+			코드 아담(Code Adam)이란?
+		</h1>
+		<h2 class="row">
+			대규모 점포와 다중이용시설에서 실종 아동을 빠르게 수색할 수 있도록 하는 제도.
+			<br>
+			실종아동 신고가 접수될 경우 즉시 시설관리주체는 즉시 경보발령을 내린 후 출입구를 감시하며 실종아동의 빠른 발견을 위해 노력해야한다.
+			<br>
+			<br>
+		</h2>
+		<h3>
+			*이때 실종아동에는 18세 미만의 아동 뿐만 아닌 지적 또는 자폐적 정신 장애인과 치매환자 또한 해당된다.
+		</h3>
+		<img src="father.png" class="father">
+		<img src="son.png" class="son">
+	</section>
+	<section>
+		<div class="graph"></div>
+		<div class="graph2"></div>
+		<h2 class="row">
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			실종 직후 골든타임 48시간.
+			<br>
+			짧으면 짧을 수록 높아지는 발견확률.
+		</h2>
+	</section>
+
+	<section id="b">
+		<h1 class="row">
+			Contents
+		</h1>
+		<h2 class="row">
+			1. 코드 아담이 만들어진 배경
+			<br>
+			2. 코드 아담의 정의와 적용
+			<br>
+			3. 한국 코드 아담의 문제점
+		</h2>
+	</section>
+	<section id="c">
+		<h1 class="row">
+			Style
+		</h1>
+		<h2>
+			<br>
+			<br>
+			폰트
+			<br>
+			한글: Noto Sans
+			<br>
+			영문: Russo
+		</h2>
+	</section>
+	<div class="flex">
+		<img src="bulletin.png" class="col-2">
+		<img src="detective.png" class="col-2">
+	</div>
+	<div class="flex">
+		<img src="channele.jpg" class="col-2">
+		<img src="channelee.jpg" class="col-2">
+	</div>
+</body>
+</html></h3>
